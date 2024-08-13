@@ -18,7 +18,8 @@ Currently, this `ord-img` tag only works for `jpg` or `png` inscriptions.
 ## Next Steps
 - support `webp` in `ord-img`
 - support `gif` in `ord-img`
-- support 3D primitives such as cubes, sphere...
+- support 3D primitives:
+  - `1x1x1` cube at `(0, 0, 0)` will be `<cube width="1" height="1" depth="1" x="0" y="0" z="0" rx="0" ry="0" rz="0" sx="0" sy="0" sz="0" color="#FF6900"></cube>`
 
 ## Supported BTC Ordinal collections
 - Parcels in [.runescape](https://magiceden.io/ordinals/marketplace/runescape?attributes=%257B%2522Type%2522%253A%255B%257B%2522traitType%2522%253A%2522Type%2522%252C%2522value%2522%253A%2522Parcel%2522%252C%2522count%2522%253A34%252C%2522floor%2522%253A0%252C%2522image%2522%253A%2522https%253A%252F%252Fimg-cdn.magiceden.dev%252Frs%253Afill%253A400%253A0%253A0%252Fplain%252Fhttps%25253A%25252F%25252Frenderer.magiceden.dev%25252Fv2%25252Frender%25253Fid%25253Dea0750f7ac0a0726262bb6931e8e80178f4aac91c534e5eff143ed612b3c7778i0%2522%252C%2522label%2522%253A%2522Parcel%2522%252C%2522total%2522%253A34%257D%255D%257D)
