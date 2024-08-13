@@ -6,7 +6,7 @@ BTC Ordinals are digital assets where digital asset ownership is secured by the 
 
 ## Usage
 The first live OrdML example is a TEXT [reinscription](https://ordinals.com/sat/1147516183548979) on a metaverse [parcel](https://ordinals.com/inscription/f0fb9f3293e044cfbdec8f9c61a5496fe0d153bf5db3c258070c21ee7fbc0b3ci1) using the following OrdML
-`<ord-img content="88888126a553d79a87038cada3241162ca8dbd94d1675fbc371a874feb33829ai0"></ord-img>`. 
+`<ord-img content="88888126a553d79a87038cada3241162ca8dbd94d1675fbc371a874feb33829ai0"></ord-img>` as a `.txt` [file](https://raw.githubusercontent.com/ordml/ordml/main/ordml0.txt). 
 
 If you own a metaverse parcel, you can re-inscribe this TEXT inscription with your image inscription ID on the parcel satoshi. You will see the parcel image updated once the TX is confirmed. The [parent](https://ordinals.com/inscription/0f436d14e3e6296780e19776eafd78ad578da403a4ba3c15ecf61870c6c47c42i0) (digital land inscription) of this parcel will also automatically update based on the child parcels' OrdML reinscriptions.
 
