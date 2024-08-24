@@ -1,8 +1,8 @@
 # OrdML
-OrdML is a set of [XML](https://www.w3schools.com/xml/xml_whatis.asp) simple syntaxes for placing BTC [Ordinals](https://docs.ordinals.com/) inscriptions in 3D worlds (i.e., position, rotation, scale, nested structure...).
+OrdML is a set of [XML](https://www.w3schools.com/xml/xml_whatis.asp) syntaxes for placing BTC [Ordinals](https://docs.ordinals.com/) inscriptions in 3D worlds (i.e., position, rotation, scale, nested structure...).
 
 ## Why?
-BTC Ordinals are digital assets where digital asset ownership is secured by the most decentralized, secured, and valuable blockchain - Bitcoin. Can we build 3D worlds based on these digital assets? If we intend to place digital assets into 3D worlds, what is a simple way to describe digital assets with their relations to 3D worlds? OrdML was born to combine the BTC Ordinals with [MML](https://mml.io/) that is an open source (MIT License) project to host web-based 3D multiplayer worlds.
+BTC Ordinals are digital assets where asset ownership is secured by the most decentralized and valuable blockchain - Bitcoin. Can we build a BTC metaverse based on these digital assets? If we intend to place digital assets into 3D worlds, what is a simple way to describe digital assets with their relations to 3D worlds? OrdML was born to remix the BTC Ordinals with [MML](https://mml.io/) (MIT License) project to host web-based 3D multiplayer worlds using native BTC assets.
 
 ## Use Cases
 - `ord-img`: The first live OrdML example is a TEXT [reinscription](https://ordinals.com/sat/1147516183548979) on a metaverse [parcel](https://ordinals.com/inscription/f0fb9f3293e044cfbdec8f9c61a5496fe0d153bf5db3c258070c21ee7fbc0b3ci1) using the following OrdML
@@ -10,7 +10,7 @@ BTC Ordinals are digital assets where digital asset ownership is secured by the 
 - `ord-html`: A [test example](https://magiceden.io/ordinals/item-details/b9fbe8ea9192bfb3dc3d43750ac8721118fac5738d87282400eaf622753c6114i0) was inscribed successfully. This will bring more extensive customization on Bitmap.
 ![blobofbtc0](https://github.com/user-attachments/assets/c5b1e292-d0ce-4e42-a955-d1cea481b085)
 
-
+## Reinscribe OrdML on metaverse parcels
 If you own a metaverse parcel, you can re-inscribe this TEXT inscription with your image inscription ID on the parcel satoshi. You will see the parcel image updated once the TX is confirmed. The [parent](https://ordinals.com/inscription/0f436d14e3e6296780e19776eafd78ad578da403a4ba3c15ecf61870c6c47c42i0) (digital land inscription) of this parcel will also automatically update based on the child parcels' OrdML reinscriptions.
 
 <img width="557" alt="OrdML on a metaverse parcel" src="https://github.com/user-attachments/assets/a4775fc4-3c79-4e85-9a04-225a5b50d3d5">
