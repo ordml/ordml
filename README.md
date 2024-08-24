@@ -21,17 +21,21 @@ If you own a metaverse parcel, you can re-inscribe this TEXT inscription with yo
 
 ## Next Steps
 ### ord-html
+To load inscriptions in `html`, we need to look up the target inscription types and provide a good iframe for it to be rendered before loading into threejs. Note that loading html inscriptions are much more resource consuming and the browser may not allow rendering multiple iframes at the same time.
 - port over [content types](https://github.com/ordinals/ord/blob/75bf04b22107155f8f8ab6c77f6eefa8117d9ace/src/inscriptions/media.rs#L73) and `web-preview` [implementations](https://github.com/ordinals/ord/tree/master/templates) from ord
 
 ### ord-img
+If the content type is shown as one of the image types, it should be rendered as material in threejs.
 - support `webp` in `ord-img`
 - support `gif` in `ord-img`
 
 ### cube
+Can 3D primitives be used in an onchain 3D world?
 - support 3D primitives:
   - `1x1x1` cube at `(0, 0, 0)` will be `<cube width="1" height="1" depth="1" x="0" y="0" z="0" rx="0" ry="0" rz="0" sx="0" sy="0" sz="0" color="#FF6900"></cube>`
 
 ### parcel
+Parcels are the virtual limitations of how big an area can be. Need ways to check if the inscribed OrdML stays within the parcel's cubical area.
 - change the parcel color
 
 ## Supported BTC Ordinal collections
