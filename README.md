@@ -16,8 +16,8 @@ If you own a metaverse parcel, you can re-inscribe this TEXT inscription with yo
 <img width="557" alt="OrdML on a metaverse parcel" src="https://github.com/user-attachments/assets/a4775fc4-3c79-4e85-9a04-225a5b50d3d5">
 
 ## Important Limitations
-- `ord-img` tag only works for `jpg` or `png` inscriptions.
-- `ord-html` tag works for most HTML document type. While `ord-html` tag can also be used for other document types such as images, it is recommended that not to overuse this tag because it does consume more browser resources to load an inscription with an iframe.
+- [active on certain parcels] `ord-img` tag only works for `jpg` or `png` inscriptions.
+- [pre-release] `ord-html` tag works for most HTML document type. While `ord-html` tag can also be used for other document types such as images, it is recommended that not to overuse this tag because it does consume more browser resources to load an inscription with an iframe.
 
 ## Next Steps
 ### ord-html
